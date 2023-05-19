@@ -1,0 +1,27 @@
+{
+	// Update interval of the remote config in hours.
+	"update-interval": 10,
+	// Messages shown to the user.
+	"messages": {
+		// Infos and warnings are shown on almost every ddev command and can
+		// not be disabled by the user, please use with caution!
+		"notifications": {
+			"interval": 20,
+ 			"infos": [],
+			"warnings": []
+		},
+		// Ticker messages are are shown once in an interval and are rotated
+		// once a message was shown.
+		"ticker": {
+			"interval": 20,
+			"messages": [
+				{
+					"message": "Please encourage your organization to support DDEV financially, see https://github.com/sponsors/ddev"
+				},
+				{
+					"message": "If you get a 403 from your DDEV project it's often because the docroot is improperly specified or it doesn't have an index.php."
+				}
+			]
+		}
+	}
+}
