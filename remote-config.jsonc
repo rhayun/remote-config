@@ -7,7 +7,11 @@
 		// not be disabled by the user, please use with caution!
 		"notifications": {
 			"interval": 20,
-			"infos": [],
+			"infos": [
+			    {
+			        "message": "If you have warnings about omit_containers: [dba] try `grep \"^omit_containers.*dba\" */.ddev/config.yaml` in the directory where you keep your projects"
+			    }
+			],
 			"warnings": []
 		},
 		// Ticker messages are are shown once in an interval and are rotated
